@@ -52,9 +52,9 @@ export const Tasks = () => {
 
               {isDropdownOpen && (
                 <div className="absolute right-0 mt-2 w-[200px] bg-white shadow-lg rounded-lg py-2 text-gray-700 z-10">
-                  <button className="w-full text-left px-4 py-2 hover:bg-gray-100">
+                  {/* <button className="w-full text-left px-4 py-2 hover:bg-gray-100">
                     Clear finished tasks
-                  </button>
+                  </button> */}
                   <button
                     onClick={() => dispatch(deleteAllTasks())}
                     className="w-full text-left px-4 py-2 hover:bg-gray-100"
