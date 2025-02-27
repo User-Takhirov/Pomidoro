@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import url("https://fonts.cdnfonts.com/css/arial-mt");
+
+.font-arial-mt {
+  font-family: "Arial MT", "ArialMT", "Arial Rounded MT", sans-serif;
+}
+
+body {
+  background-color: transparent;
+  font-family: "Arial MT", "ArialMT", "Arial Rounded MT", sans-serif;
+}
